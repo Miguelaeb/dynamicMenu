@@ -7,7 +7,6 @@ function Navbar() {
   const [editingItem, setEditingItem] = useState(null);
 
   useEffect(() => {
-    // Load menu data from JSON file
     setMenuItems(menuData);
   }, []);
 
